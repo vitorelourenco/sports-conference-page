@@ -1,6 +1,5 @@
 #nav-top {
   height: 2.5rem;
-  line-height: 2.5rem;
 
   ul {
     display: flex;
@@ -26,4 +25,44 @@
 nav a:hover{
   color: #EC5242;
 }
+
+#mobile-nav {
+  div {
+    position: fixed;
+    left: 1.3rem;
+    top: 1rem;
+    width: 2rem;
+    height: 1.3rem;
+
+    span:first-child{
+      position: fixed;
+      display: inline-block;
+      width: 2rem;
+      border: 0.15rem solid #232A31;
+      top: 1rem;
+      left: 1.3rem;
+    }
+    span:nth-child(2){
+      position: fixed;
+      display: inline-block;
+      width: 2rem;
+      border: 0.15rem solid #232A31;
+      top: 1.5rem;
+      left: 1.3rem;
+
+
+    }
+    span:nth-child(3){
+      position: fixed;
+      display: inline-block;
+      width: 2rem;
+      border: 0.15rem solid #232A31;
+      top: 2rem;
+      left: 1.3rem;
+
+    }
+  }
+}
+
+
 
