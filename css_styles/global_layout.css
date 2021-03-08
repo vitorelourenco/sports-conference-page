@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "cocogoose-pro-regular";
+  src: url("../assets/fonts/cocogoose/Cocogoose Pro Regular Trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato-regular";
+  src: url("../assets/fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+.bg-c-orange {
+  background-color: #EC5242;
+}
+
+.bg-c-dark {
+  background-color: #232A31;
+}
+
+.bg-c-light {
+  background-color: #D3D3D3;
+}
+
+.color-c-orange {
+  color: #EC5242;
+}
+
+.color-c-dark {
+  color: #232A31;
+}
+
+.color-c-light {
+  color: #D3D3D3;
+}
+
+.font-lato {
+  font-family: "lato-regular", "sans-serif";
+}
+
+.font-cocogoose {
+  font-family: "cocogoose-pro-regular", "sans-serif";
+}
+
+/*# sourceMappingURL=global_layout.css.map */

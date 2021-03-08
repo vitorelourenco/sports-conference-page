@@ -1,0 +1,45 @@
+$c-orange: #EC5242;
+$c-dark: #232A31;
+$c-light: #D3D3D3;
+
+@font-face {
+  font-family: 'cocogoose-pro-regular';
+  src: url('../assets/fonts/cocogoose/Cocogoose Pro Regular Trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+}
+
+.bg-c-orange {
+  background-color: $c-orange;
+}
+
+.bg-c-dark { 
+  background-color: $c-dark;
+}
+
+.bg-c-light {
+  background-color: $c-light;
+}
+
+.color-c-orange {
+  color: $c-orange;
+}
+
+.color-c-dark {
+  color: $c-dark;
+}
+
+.color-c-light {
+  color: $c-light;
+}
+
+.font-lato {
+  font-family: 'lato-regular', 'sans-serif';
+}
+
+.font-cocogoose {
+  font-family: 'cocogoose-pro-regular', 'sans-serif';
+}
