@@ -46,8 +46,132 @@
   max-width: 1400px;
 }
 
-.fit-line-height {
-  line-height: 100%;
+#mobile-nav div {
+  position: fixed;
+  left: 1.1rem;
+  top: 0.8rem;
+  width: 2.4rem;
+  height: 1.7rem;
+}
+#mobile-nav div span {
+  position: fixed;
+  width: 2rem;
+  border: 0.15rem solid #232A31;
+}
+#mobile-nav div span:first-child {
+  top: 1rem;
+  left: 1.3rem;
+}
+#mobile-nav div span:nth-child(2) {
+  top: 1.5rem;
+  left: 1.3rem;
+}
+#mobile-nav div span:nth-child(3) {
+  top: 2rem;
+  left: 1.3rem;
+}
+
+#nav-top {
+  height: 2.5rem;
+}
+#nav-top ul {
+  display: flex;
+  justify-content: end;
+}
+
+#nav-bot {
+  height: 6rem;
+}
+#nav-bot #itc-campaign {
+  outline-style: solid;
+  outline-color: #EC5242;
+  outline-offset: 0.2rem;
+  outline-width: 0.4rem;
+}
+#nav-bot #itc-logo {
+  font-size: 3rem;
+}
+
+nav a:hover {
+  color: #EC5242;
+}
+
+.diamond-background {
+  background-image: url(../assets/images/tribackground.png);
+}
+
+.fs-05 {
+  font-size: 0.5rem;
+}
+
+.fs-10 {
+  font-size: 1rem;
+}
+
+.fs-15 {
+  font-size: 1.5rem;
+}
+
+.fs-20 {
+  font-size: 2rem;
+}
+
+.fs-25 {
+  font-size: 2.5rem;
+}
+
+.fs-30 {
+  font-size: 3rem;
+}
+
+.fs-35 {
+  font-size: 3.5rem;
+}
+
+.fs-40 {
+  font-size: 4rem;
+}
+
+.fs-45 {
+  font-size: 4.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .fs-md-05 {
+    font-size: 0.5rem;
+  }
+
+  .fs-md-10 {
+    font-size: 1rem;
+  }
+
+  .fs-md-15 {
+    font-size: 1.5rem;
+  }
+
+  .fs-md-20 {
+    font-size: 2rem;
+  }
+
+  .fs-md-25 {
+    font-size: 2.5rem;
+  }
+
+  .fs-md-30 {
+    font-size: 3rem;
+  }
+
+  .fs-md-35 {
+    font-size: 3.5rem;
+  }
+
+  .fs-md-40 {
+    font-size: 4rem;
+  }
+
+  .fs-md-45 {
+    font-size: 4.5rem;
+  }
 }
 
 /*# sourceMappingURL=global_layout.css.map */

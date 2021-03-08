@@ -1,68 +1,13 @@
-#nav-top {
-  height: 2.5rem;
-
-  ul {
-    display: flex;
-    justify-content: end;
-  }
+#main-poster-background {
+  background-image: url(../assets/images/bikebackground.png);
+  background-size: cover;
 }
 
-#nav-bot {
-  height: 6rem;
-
-  #itc-campaign {
-    outline-style: solid;
-    outline-color: #EC5242;
-    outline-offset: 0.2rem;
-    outline-width: 0.4rem;
-  }
-  
-  #itc-logo {
-    font-size: 3rem;
+@media screen and (min-width: 768px){
+  // #main-poster {
+  //   height: calc(100vh - 8.5rem);
+  // }
+  .me-md-10 {
+    margin-right: 10rem;
   }
 }
-
-nav a:hover{
-  color: #EC5242;
-}
-
-#mobile-nav {
-  div {
-    position: fixed;
-    left: 1.3rem;
-    top: 1rem;
-    width: 2rem;
-    height: 1.3rem;
-
-    span:first-child{
-      position: fixed;
-      display: inline-block;
-      width: 2rem;
-      border: 0.15rem solid #232A31;
-      top: 1rem;
-      left: 1.3rem;
-    }
-    span:nth-child(2){
-      position: fixed;
-      display: inline-block;
-      width: 2rem;
-      border: 0.15rem solid #232A31;
-      top: 1.5rem;
-      left: 1.3rem;
-
-
-    }
-    span:nth-child(3){
-      position: fixed;
-      display: inline-block;
-      width: 2rem;
-      border: 0.15rem solid #232A31;
-      top: 2rem;
-      left: 1.3rem;
-
-    }
-  }
-}
-
-
-
