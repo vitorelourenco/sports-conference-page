@@ -1,0 +1,25 @@
+#nav-top {
+  height: 2.5rem;
+  line-height: 2.5rem;
+
+  ul {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+#nav-bot {
+  height: 6rem;
+
+  #itc-campaign {
+    outline-style: solid;
+    outline-color: #EC5242;
+    outline-offset: 0.2rem;
+    outline-width: 0.4rem;
+  }
+  
+  #itc-logo {
+    font-size: 3rem;
+  }
+}
+

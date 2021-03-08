@@ -38,4 +38,12 @@
   font-family: "cocogoose-pro-regular", "sans-serif";
 }
 
+.width-limited {
+  max-width: 1400px;
+}
+
+.fit-line-height {
+  line-height: 100%;
+}
+
 /*# sourceMappingURL=global_layout.css.map */
