@@ -3,11 +3,24 @@
   background-size: cover;
 }
 
+.topics {
+  width: 7rem;
+}
+
+.small-orange-line {
+  width: 50px;
+  border: 0.2rem solid #EC5242;
+}
+
 @media screen and (min-width: 768px){
   // #main-poster {
   //   height: calc(100vh - 8.5rem);
   // }
   .me-md-10 {
     margin-right: 10rem;
+  }
+
+  .topics-md {
+    width: unset;
   }
 }

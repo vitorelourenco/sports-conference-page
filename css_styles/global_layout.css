@@ -10,6 +10,10 @@
   background-color: #EC5242;
 }
 
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
 .bg-c-dark {
   background-color: #232A31;
 }
