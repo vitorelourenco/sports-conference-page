@@ -12,6 +12,33 @@
   border: 0.2rem solid #EC5242;
 }
 
+.speaker-img-div {
+  width: 115px;
+  height: 115px;
+  background-image: url(../assets/images/checkboard.jpg);
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.speaker-img {
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.grey-dash {
+  display: block;
+  width: 20px;
+  border: 1px solid #D3D3D3;
+  margin: 5px 0;
+}
+
+.speaker-text-div {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 @media screen and (min-width: 768px){
   // #main-poster {
   //   height: calc(100vh - 8.5rem);
