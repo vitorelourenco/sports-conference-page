@@ -1,6 +1,6 @@
-$c-orange: #EC5242;
-$c-dark: #232A31;
-$c-light: #D3D3D3;
+$c-orange: #ec5242;
+$c-dark: #232a31;
+$c-light: #d3d3d3;
 
 @font-face {
   font-family: 'cocogoose-pro-regular';
@@ -20,7 +20,7 @@ $c-light: #D3D3D3;
   text-decoration: underline;
 }
 
-.bg-c-dark { 
+.bg-c-dark {
   background-color: $c-dark;
 }
 
@@ -49,11 +49,11 @@ $c-light: #D3D3D3;
 }
 
 .font-lato {
-  font-family: 'lato-regular', 'sans-serif';
+  font-family: 'lato-regular', sans-serif;
 }
 
 .font-cocogoose {
-  font-family: 'cocogoose-pro-regular', 'sans-serif';
+  font-family: 'cocogoose-pro-regular', sans-serif;
 }
 
 .width-limited {
@@ -68,24 +68,25 @@ $c-light: #D3D3D3;
     width: 2.4rem;
     height: 1.7rem;
 
-    span{
+    span {
       position: fixed;
       width: 2rem;
       border: 0.15rem solid $c-dark;
     }
 
-    span:first-child{
+    span:first-child {
       top: 1rem;
       left: 1.3rem;
     }
-    span:nth-child(2){
+
+    span:nth-child(2) {
       top: 1.5rem;
       left: 1.3rem;
     }
-    span:nth-child(3){
+
+    span:nth-child(3) {
       top: 2rem;
       left: 1.3rem;
-
     }
   }
 }
@@ -108,13 +109,13 @@ $c-light: #D3D3D3;
     outline-offset: 0.2rem;
     outline-width: 0.4rem;
   }
-  
+
   #itc-logo {
     font-size: 3rem;
   }
 }
 
-nav a:hover{
+nav a:hover {
   color: $c-orange;
 }
 
@@ -158,39 +159,39 @@ nav a:hover{
   font-size: 4.5rem;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .fs-md-05 {
     font-size: 0.5rem;
   }
-  
+
   .fs-md-10 {
     font-size: 1rem;
   }
-  
+
   .fs-md-15 {
     font-size: 1.5rem;
   }
-  
+
   .fs-md-20 {
     font-size: 2rem;
   }
-  
+
   .fs-md-25 {
     font-size: 2.5rem;
   }
-  
+
   .fs-md-30 {
     font-size: 3rem;
   }
-  
+
   .fs-md-35 {
     font-size: 3.5rem;
   }
-  
+
   .fs-md-40 {
     font-size: 4rem;
   }
-  
+
   .fs-md-45 {
     font-size: 4.5rem;
   }

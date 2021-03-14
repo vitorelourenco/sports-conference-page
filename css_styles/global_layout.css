@@ -7,7 +7,7 @@
   src: url("../assets/fonts/lato/Lato-Regular.ttf") format("truetype");
 }
 .bg-c-orange {
-  background-color: #EC5242;
+  background-color: #ec5242;
 }
 
 .text-decoration-underline {
@@ -15,11 +15,11 @@
 }
 
 .bg-c-dark {
-  background-color: #232A31;
+  background-color: #232a31;
 }
 
 .bg-c-light {
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .bg-c-fade {
@@ -27,15 +27,15 @@
 }
 
 .color-c-orange {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .color-c-dark {
-  color: #232A31;
+  color: #232a31;
 }
 
 .color-c-light {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .color-c-white {
@@ -43,11 +43,11 @@
 }
 
 .font-lato {
-  font-family: "lato-regular", "sans-serif";
+  font-family: "lato-regular", sans-serif;
 }
 
 .font-cocogoose {
-  font-family: "cocogoose-pro-regular", "sans-serif";
+  font-family: "cocogoose-pro-regular", sans-serif;
 }
 
 .width-limited {
@@ -64,7 +64,7 @@
 #mobile-nav div span {
   position: fixed;
   width: 2rem;
-  border: 0.15rem solid #232A31;
+  border: 0.15rem solid #232a31;
 }
 #mobile-nav div span:first-child {
   top: 1rem;
@@ -92,7 +92,7 @@
 }
 #nav-bot #itc-campaign {
   outline-style: solid;
-  outline-color: #EC5242;
+  outline-color: #ec5242;
   outline-offset: 0.2rem;
   outline-width: 0.4rem;
 }
@@ -101,7 +101,7 @@
 }
 
 nav a:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .diamond-background {
